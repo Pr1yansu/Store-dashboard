@@ -1,7 +1,7 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 import { CreateProduct, Size } from "@/types/types";
 
-const baseUrl = "http://localhost:5000/api/v1/";
+const baseUrl = "https://store-backend-qjoq.onrender.com/api/v1/";
 
 interface CreateProductResponse {
   status: "success" | "error";
